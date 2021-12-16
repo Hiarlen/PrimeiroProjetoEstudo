@@ -1,25 +1,66 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UNES - Página principal</title>
+		<meta charset="utf-8">
+	</head>
 
-    <head>
-    	<title>Contato</title>
-    	<meta charset="utf-8">
-    </head>
+	<body background="imagens/fundo2.png">
 
-    <body>
+		<table border="0" width="900" align="center">
+			
+			<tr>
+				<td height="89"><img src="imagens/logo.png"></td>
+				<td align="right">
+					<a href="index.html">Home</a> |
+					<a href="quem-somos.html">Quem somos</a> |
+					<a href="contato.html">contato</a>
+				</td>
+			</tr>
 
-         <a href="index.html">
-        Home
-        </a>
-        /
-         <a href="">
-        Contato
-        </a>
+			
 
-    <h2>Página de contato</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum turpis neque, consequat et maximus sed, commodo ut sem. Aliquam feugiat odio leo, a tincidunt nulla aliquam non. Suspendisse leo augue, ultrices quis lectus vel, consequat pulvinar dui. Integer ut dolor.</p>        
+			<tr>
+				<td colspan="2">
+					
+					<h2>Entre em contato</h2>
+					
+					<p>
+						Em caso de dúvidas ou para mais informações 
+						entre em contato
+					</p>
 
-    </body>
+					<hr>
 
-</html>	
+					<form>
+						
+						Seu e-mail: <br>
+						<input type="text" name="e-mail"> <br>
+
+						Assunto: <br>
+						<input type="text" name="assunto"> <br>
+
+						Descrição: <br>
+						<textarea></textarea> <br>
+
+						<input type="submit" value="enviar"> <br>
+
+					</form>
+					
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<h4>Todos os direitos reservados</h4>
+				</td>
+			</tr>
+
+		</table>
+
+
+	</body>
+
+</html>
