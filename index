@@ -1,59 +1,55 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UNES - Página principal</title>
+		<meta charset="utf-8">
+	</head>
 
-    <head>
-    	<title>Página Principal</title>
-    	<meta charset="utf-8">
-    </head>
+	<body background="imagens/fundo.png">
 
-    <body>
+		<table border="0" width="900" align="center">
+			
+			<tr>
+				<td height="89"><img src="imagens/logo.png"></td>
+				<td align="right">
+					<a href="index.html">Home</a> |
+					<a href="quem-somos.html">Quem somos</a> |
+					<a href="contato.html">contato</a>
+				</td>
+			</tr>
 
-        <h1>Login</h1>
-        <form>
-            
-            Login:<br>
-            <input type="text" name="login"><br>
+			<tr>
+				<td colspan="2">
+					<img src="imagens/capa.png">
+				</td>
 
-            Senha:<br>
-            <input type="password" name="senha"><br>
+			</tr>
 
-            <input type="button" value="Logar">
+			<tr>
+				<td colspan="2">
+					
+					<h2>Sobre a Universidade</h2>
+					<p>
+						instituição <strong>de ensino e pesquisa</strong> constituída por <em>um conjunto de faculdades e escolas</em> destinadas a promover a formação profissional e científica de pessoal de nível superior, e a realizar pesquisa teórica e prática nas principais áreas do saber humanístico, tecnológico e artístico e a divulgação de seus resultados à comunidade científica mais ampla.
+					</p>
 
+					<p>
+						Uma universidade é uma instituição de ensino superior pluridisciplinar e de formação de quadros profissionais de nível superior, de investigação, de extensão e de domínio e cultivo do saber humano. Uma universidade fornece educação tanto terciária ( graduação) quanto quaternária ( pós-graduação )
+					</p>
+				</td>
+			</tr>
 
-        </form>
+			<tr>
+				<td colspan="2" align="center">
+					<h4>Todos os direitos reservados</h4>
+				</td>
+			</tr>
 
-
-        <h2>Cadastre-se</h2>
-        <form>
-        Login:<br>
-            <input type="text" name="login"><br><br>
-
-        Sexo:<br>
-        <input type="radio" name="sexo" value="M"> Masculino <br>
-        <input type="radio" name="sexo" value="F"> Feminino <br><br>
-
-        Interesses <br>
-        <input type="checkbox" name="interesses"> Futebol<br>
-        <input type="checkbox" name="interesses"> Cursos<br>
-        <input type="checkbox" name="interesses"> Moda<br><br>
-
-        Estado<br>
-        <select NAME="estado">
-            <option value="sp">SP</option>
-            <option value="es">ES</option>
-            <option value="rj">RJ</option>
-            <option value="mg">MG</option>
-        </select><br><br>
-
-        Observações<br>
-        <textarea></textarea><br><br>
-
-        <input type="submit" value="Cadastrar">
+		</table>
 
 
-        </form>
+	</body>
 
-    </body>
-
-</html>	
+</html>
